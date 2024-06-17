@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchard Contact Info</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <div class="container mx-auto p-8">
+        <h1 class="text-center font-bold">Las Vegas Orchard</h1>
+        <div class="box p-6 mt-8">
+            <h2 class="font-bold">Contact Information</h2>
+            <p class="mt-4"><strong>Address:</strong> 123 Orchard Lane, Las Vegas, NV 89101</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@lasvegasorchard.com</p>
+        </div>
+        <div class="box p-6 mt-8">
+            <h2 class="font-bold">Contact Us</h2>
+            <form class="mt-4">
+                <div class="mb-4">
+                    <label class="block text-dark">Name</label>
+                    <input type="text" class="input" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-dark">Email</label>
+                    <input type="email" class="input" placeholder="Your Email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-dark">Message</label>
+                    <textarea class="input" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

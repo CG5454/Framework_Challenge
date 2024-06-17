@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.bg-light {
+    background-color: #f7fafc;
+}
+.text-center {
+    text-align: center;
+}
+.font-bold {
+    font-weight: bold;
+}
+.box {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+.text-dark {
+    color: #4a5568;
+}
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+}
+.btn {
+    background-color: #4299e1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
